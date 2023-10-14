@@ -12,7 +12,7 @@ const check_cliente = async (inputEmail, inputPassword) => {
       .then((response) => {
         //alert(response.status);
         if (response.status === 200) {
-            //alert("got here!");
+            alert("logged in!");
             window.location.href = 'https://estudart.github.io/front-end_FullStack/';
         }
       })
